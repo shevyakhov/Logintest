@@ -1,0 +1,9 @@
+ext.Modules = [
+	APP           : ":app",
+	FEATURES      : [
+
+	],
+	LIBRARIES     : [
+
+	],
+]

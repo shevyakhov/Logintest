@@ -1,0 +1,4 @@
+ext.ModuleType = [
+	Application    : BuildSrc.androidApplication,
+	Library        : BuildSrc.androidLibrary,
+]
