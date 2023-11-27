@@ -48,4 +48,5 @@ ext.Dependencies =
 		COROUTINE_TEST         : "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.COROUTINE}",
 
 		LOTTIE                 : "com.airbnb.android:lottie:${Versions.LOTTIE}",
+		SECRET_KEY             : "androidx.security:security-crypto:${Versions.SECRET_KEY}",
 	]
