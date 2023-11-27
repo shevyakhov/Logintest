@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginVertical="10dp"
+	app:cardCornerRadius="15dp">
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="15dp">
+
+		<TextView
+			android:id="@+id/title"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:text="TITLE" />
+
+		<TextView
+			android:id="@+id/amount"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			app:layout_constraintEnd_toStartOf="@id/created"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@id/title"
+			tools:text="amount" />
+
+		<TextView
+			android:id="@+id/created"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:gravity="end"
+			app:layout_constraintBottom_toBottomOf="@id/amount"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toEndOf="@id/amount"
+			app:layout_constraintTop_toTopOf="@id/amount"
+			tools:text="created" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

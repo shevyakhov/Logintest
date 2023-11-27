@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="home">Аккаунт</string>
+	<string name="logout">Выйти</string>
+	<string name="logged_shared_pref">logged_shared_pref</string>
+	<string name="is_logged">IS_LOGGED</string>
+</resources>

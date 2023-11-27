@@ -15,7 +15,9 @@ dependencies {
 	implementation Dependencies.GSON_CONVERTER
 	implementation Dependencies.GLIDE
 	implementation Dependencies.CICERONE
+	implementation Dependencies.SECRET_KEY
 
 	implementation project(Modules.LIBRARIES.NAVIGATION)
+	implementation project(Modules.LIBRARIES.NETWORK)
 
 }
