@@ -1,6 +1,7 @@
 package com.shevyakhov.logintest
 
 import android.app.Application
+import com.shevyakhov.features.login.di.LoginModule
 import com.shevyakhov.features.splash.di.SplashModule
 import com.shevyakhov.libraries.network.di.BACKEND
 import com.shevyakhov.libraries.network.di.NetworkModule
@@ -21,9 +22,10 @@ class App : Application() {
 			androidContext(this@App)
 			modules(AppModule)
 			modules(RouterModule)
+			modules(NetworkModule)
 
 			modules(SplashModule)
-			modules(NetworkModule)
+			modules(LoginModule)
 		}
 	}
 }
